@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262DDB0C2D037F4200A13843 /* InfoDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262DDB0B2D037F4200A13843 /* InfoDisplayView.swift */; };
 		8199FC9B2CADFAC4005455B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8199FC952CADFAC4005455B6 /* Preview Assets.xcassets */; };
 		8199FC9C2CADFAC4005455B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8199FC972CADFAC4005455B6 /* Assets.xcassets */; };
 		8199FC9E2CADFAC4005455B6 /* GeometricFiguresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8199FC992CADFAC4005455B6 /* GeometricFiguresApp.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		262DDB0B2D037F4200A13843 /* InfoDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDisplayView.swift; sourceTree = "<group>"; };
 		8199FC842CADF842005455B6 /* GeometricFigures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometricFigures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8199FC952CADFAC4005455B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8199FC972CADFAC4005455B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				8199FCA02CADFBE8005455B6 /* CircleView.swift */,
+				262DDB0B2D037F4200A13843 /* InfoDisplayView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8199FCA12CADFBE8005455B6 /* CircleView.swift in Sources */,
+				262DDB0C2D037F4200A13843 /* InfoDisplayView.swift in Sources */,
 				8199FC9E2CADFAC4005455B6 /* GeometricFiguresApp.swift in Sources */,
 				8199FCA42CADFC77005455B6 /* Circle.swift in Sources */,
 			);

@@ -45,55 +45,13 @@ struct CircleView: View {
             }
                         
             // Label (show the diameter)
-            VStack {
-                HStack {
-                    Text("Diameter")
-                        .font(.headline)
-                    Spacer()
-                }
-                .padding(.top)
-                .padding(.bottom, 5)
-
-                HStack {
-                    Text("\(currentCircle.diameter.formatted()) units")
-                    Spacer()
-                }
-                .padding(.bottom)
-            }
+            InfoDisplayView(label: "Diameter", value: "\(currentCircle.diameter.formatted()) units")
 
             // Label (show the area)
-            VStack {
-                HStack {
-                    Text("Area")
-                        .font(.headline)
-                    Spacer()
-                }
-                .padding(.top)
-                .padding(.bottom, 5)
-
-                HStack {
-                    Text("\(currentCircle.area.formatted()) square units")
-                    Spacer()
-                }
-                .padding(.bottom)
-            }
-
+            InfoDisplayView(label: "Area", value: "\(currentCircle.area.formatted()) square units")
+            
             // Label (show the circumference)
-            VStack {
-                HStack {
-                    Text("Circumference")
-                        .font(.headline)
-                    Spacer()
-                }
-                .padding(.top)
-                .padding(.bottom, 5)
-
-                HStack {
-                    Text("\(currentCircle.circumference.formatted()) units")
-                    Spacer()
-                }
-                .padding(.bottom)
-            }
+            InfoDisplayView(label: "Circumference", value: "\(currentCircle.circumference.formatted()) units")
             
             Spacer()
 
@@ -105,3 +63,5 @@ struct CircleView: View {
 #Preview {
     CircleView()
 }
+
+
